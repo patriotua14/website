@@ -13,7 +13,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     max-width: 2000px;
     height: 500px;
 }
@@ -25,4 +25,73 @@
     display: flex;
     max-width: 2000px;
     height: 500px;
+}
+.b2
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b3
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b4
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b5
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b6
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b7
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
+}
+
+.b8
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    margin: 20px;
 }
