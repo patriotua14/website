@@ -6,6 +6,8 @@
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 80%;
+    text-align: center;
     width: 100%;
     margin: 20px;
 }
