@@ -3,3 +3,8 @@ div
     display: flex;
     flex-direction: column;
 }
+.head1
+{
+    height: 500px;
+    width: 100%;
+}
