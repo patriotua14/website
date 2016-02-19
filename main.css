@@ -5,8 +5,8 @@
     background-color: #18bc9c;
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png');
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
-    height: 500px;
     margin: 20px;
 }
 .container
@@ -27,8 +27,6 @@
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    max-width: 2000px;
-    height: 500px;
     margin: 10px auto;
 }
 .b2
