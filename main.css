@@ -8,7 +8,8 @@
     background-position: center center;
     background-size: 22%;
     width: 100%;
-    margin: 20px;
+    margin: 20px auto;
+    
 }
 .container
 {
@@ -16,7 +17,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
     max-width: 100%;
     height: 500px;
     margin: 10px auto;
@@ -29,6 +32,9 @@
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
     margin: 10px auto;
 }
 .firstchild
@@ -38,11 +44,11 @@
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    width: 100%;
-    height: 400px;
-}
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 10px 150px 10px 150px;
+ }
 .secondchild
 {
     display: -webkit-box;
@@ -50,88 +56,77 @@
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    flex-wrap: wrap;
-    margin: 10px auto;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 10px 150px 10px 150px;
     width: 100%;
-    height: 400px;
 }
-.b2
+img
+{
+    margin: 10px;
+}
+.b2 img
 {
     padding: 20px 20px;
     border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: auto;   
     margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
+    width: 100%;
+   
+}
+
+.b3 img
+{
+    padding: 20px 20px;
+    border-radius: 25px;
+    height: auto;   
+    margin: 20px;
+    width: 100%;
     
 }
 
-.b3
+.b4 img
 {
     padding: 20px 20px;
     border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: auto;   
     margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
-    
-    
-}
-
-.b4
-{
-    padding: 20px 20px;
-    border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
+    width: 100%;
     
     
 }
 
-.b5
+.b5 img
 {
     padding: 20px 20px;
     border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: auto;   
     margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
+    width: 100%;
     
 }
 
-.b6
+.b6 img
 {
     padding: 20px 20px;
     border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: auto;   
     margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
+    width: 100%;
     
 }
 
-.b7
+.b7 img
 {
     padding: 20px 20px;
     border-radius: 25px;
-    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png');
+    /*background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;*/
+      height: auto;   
     margin: 20px;
-    width: 33%;
-    flex: 1 1 250px;
+    width: 100%;
     
 }
 
@@ -142,13 +137,13 @@
     background-color: #18bc9c;
     width: 100%;
     height: 500px;
-    margin: 30px 20px 20px 20px;
+    margin: 30px 20px 30px 20px;
 }
 .text
 {
     position: absolute;
-    bottom: 70px;
-    left: 35%;
+    bottom: 10px;
+    left: 10px;
     color: white;
     font-size: 60px;
     font-family: sans-serif;
@@ -159,4 +154,21 @@
     -moz-column-count: 2;
     -o-column-count: 2;
     -webkit-column-count: 2;
+    column-width: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.border
+{
+  border-bottom: 3px solid #a8a5a5;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+}
+h2
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
 }
