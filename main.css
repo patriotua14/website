@@ -2,9 +2,11 @@
 {   
     padding: 20px 20px;
     border-radius: 25px;
-    background-color: yellow;
+    background-color: #18bc9c;
+    background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png');
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100px;
+    height: 500px;
     margin: 20px;
 }
 .container
@@ -18,8 +20,8 @@
     height: 500px;
 }
 .container1
-{
-     display: -webkit-box;
+{    
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
