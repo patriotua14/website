@@ -1,5 +1,6 @@
 .head1
-{
+{   
+    border-radius: 25px;
     background-color: yellow;
 }
 .container
@@ -9,4 +10,5 @@
     display: -ms-flexbox;
     display: flex;
     width: 400px;
+    height: 100px;
 }
