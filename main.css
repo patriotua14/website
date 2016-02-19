@@ -40,7 +40,6 @@
     max-width: 100%;
     flex-wrap: nowrap;
     margin: 10px auto;
-    height: 300px;
     width: 100%;
 }
 .b2
@@ -50,6 +49,7 @@
     background-color: yellow;
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png');
     background-repeat: no-repeat;
+    background-size: auto;
     margin: 20px;
     width: 300px;
     height: 300px;
@@ -62,10 +62,11 @@
     background-color: yellow;
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png');
     background-repeat: no-repeat;
+    background-size: auto;
     margin: 20px;
     width: auto;
     width: 300px;
-    height: 300px;
+    
 }
 
 .b4
@@ -75,10 +76,11 @@
     background-color: yellow;
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png');
     background-repeat: no-repeat;
+    background-size: auto;
     margin: 20px;
     width: auto;
     width: 300px;
-    height: 300px;
+    
 }
 
 .b5
