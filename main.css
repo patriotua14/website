@@ -6,7 +6,7 @@
     background-image: url('http://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 17%;
+    background-size: 22%;
     width: 100%;
     margin: 20px;
 }
@@ -29,6 +29,15 @@
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px auto;
+}
+.firstchild
+{
+     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
     margin: 10px auto;
 }
 .b2
@@ -103,9 +112,9 @@
 .text
 {
     position: absolute;
-    bottom: 40px;
-    left: 45%;
+    bottom: 70px;
+    left: 35%;
     color: white;
-    font-size: 35px;
+    font-size: 60px;
     font-family: sans-serif;
 }
