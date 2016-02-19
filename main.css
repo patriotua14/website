@@ -1,9 +1,11 @@
 .head1
 {   
+    padding: 20px 20px;
     border-radius: 25px;
     background-color: yellow;
-    width: 100%;
+    width: 1000px;
     height: 100px;
+    margin: 20px;
 }
 .container
 {
@@ -11,6 +13,16 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 400px;
-    height: 100px;
+    flex-direction: wrap;
+    max-width: 2000px;
+    height: 500px;
+}
+.container1
+{
+     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 2000px;
+    height: 500px;
 }
